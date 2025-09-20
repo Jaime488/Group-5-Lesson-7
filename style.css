@@ -1,0 +1,16 @@
+html{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.slides{
+    border: 2px solid black;
+    flex:1;
+    height: 945px;
+    
+}
+
+#slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
