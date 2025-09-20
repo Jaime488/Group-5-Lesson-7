@@ -1,5 +1,11 @@
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('Fonts/RobotoMono-Regular.woff2') format('woff2'),
+    url('Fonts/RobotoMono-Regular.woff') format('woff');
+}
+
 html{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Roboto Mono';
 }
 
 .slides{
