@@ -1,11 +1,11 @@
 @font-face {
-    font-family: 'Roboto Mono';
-    src: url('Fonts/RobotoMono-Regular.woff2') format('woff2'),
-    url('Fonts/RobotoMono-Regular.woff') format('woff');
+    font-family: 'Nasalization';
+    src: url('Fonts/Nasalization-Regular.woff2') format('woff2'),
+    url('Fonts/Nasalization-Regular.woff') format('woff');
 }
 
-html{
-    font-family:'Roboto Mono';
+body{
+    font-family:'Nasalization';
 }
 
 .slides{
@@ -16,6 +16,12 @@ html{
 }
 
 #slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slide2{
     display: flex;
     justify-content: center;
     align-items: center;
